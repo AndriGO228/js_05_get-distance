@@ -1,6 +1,5 @@
 function getDistance(distanceTraveled, traveledPercent) {
-	const allDistanceTraveled = distanceTraveled * (100 / traveledPercent);
-	return 'distance between village and capital: ' + String(allDistanceTraveled) + 'm';
+	return 'distance between village and capital: ' + String(distanceTraveled * (100 / traveledPercent)) + 'm';
 }
 
 module.exports = getDistance;
